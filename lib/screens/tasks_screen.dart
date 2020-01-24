@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../widgets/tasks_list.dart';
+import 'add_task_screen.dart';
 
 class TasksScreen extends StatelessWidget {
   @override
@@ -12,7 +13,18 @@ class TasksScreen extends StatelessWidget {
         child: Icon(
           Icons.add,
         ),
-        onPressed: () {},
+        onPressed: () {
+          showModalBottomSheet(
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(30.0),
+                topRight: Radius.circular(30.0),
+              ),
+            ),
+            context: context,
+            builder: (context) => AddTaskScreen(),
+          );
+        },
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
