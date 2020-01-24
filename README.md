@@ -1,16 +1,21 @@
-# todoey_flutter
+![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
 
-A new Flutter project.
 
-## Getting Started
+# Todoey
 
-This project is a starting point for a Flutter application.
+## Our Goal
 
-A few resources to get you started if this is your first Flutter project:
+The objective of this tutorial is to learn about state management. We'll be using the Provider package which is the recommended package by Google to manage state.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## What you will learn
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [ ] Learn about the BottomSheet Widget.
+- [ ] Learn about State Management.
+- [ ] Learn about Callbacks in Flutter.
+- [ ] Learn about Flutter Architecture Patterns.
+- [ ] Learn about the Provider package.
+- [ ] Learn how to manage the state of the To-do Tasks.
+
+>This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+
+![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
