@@ -10,9 +10,9 @@ The objective of this tutorial is to learn about state management. We'll be usin
 ## What you will learn
 
 - [x] Design the To-Do App.
-- [ ] Learn about the BottomSheet Widget.
-- [ ] Learn about State Management.
-- [ ] Learn about Callbacks in Flutter.
+- [x] Learn about the BottomSheet Widget.
+- [x] Learn about State Management.
+- [x] Learn about Callbacks in Flutter.
 - [ ] Learn about Flutter Architecture Patterns.
 - [ ] Learn about the Provider package.
 - [ ] Learn how to manage the state of the To-do Tasks.
