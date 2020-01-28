@@ -40,7 +40,6 @@ class AddTaskScreen extends StatelessWidget {
               elevation: 0,
               color: Colors.lightBlueAccent,
               height: 50.0,
-              onPressed: () {},
               child: Text(
                 'Add',
                 style: TextStyle(
@@ -48,6 +47,9 @@ class AddTaskScreen extends StatelessWidget {
                   fontSize: 18.0,
                 ),
               ),
+              onPressed: () {
+                
+              },
             ),
           ),
         ],
