@@ -15,8 +15,8 @@ The objective of this tutorial is to learn about state management. We'll be usin
 - [x] Learn about Callbacks in Flutter.
 - [x] Learn how to build a dynamic list with ListView.builder method.
 - [x] Lifting State Up Challenge.
-- [ ] Learn about Flutter Architecture Patterns.
-- [ ] Learn about the Provider package.
+- [x] Learn about Flutter Architecture Patterns.
+- [x] Learn about the Provider package.
 - [ ] Learn how to manage the state of the To-do Tasks.
 
 >This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
