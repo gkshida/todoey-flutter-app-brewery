@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 
 class AddTaskScreen extends StatelessWidget {
+  final Function addTaskCallback;
+
+  AddTaskScreen({this.addTaskCallback});
+
   @override
   Widget build(BuildContext context) {
+    String newTitle;
+
     return Container(
       padding: const EdgeInsets.only(
           top: 30.0, left: 30.0, right: 30.0, bottom: 30.0),
@@ -31,6 +37,9 @@ class AddTaskScreen extends StatelessWidget {
                 ),
               ),
             ),
+            onChanged: (value) {
+              newTitle = value;
+            },
           ),
           SizedBox(
             height: 30.0,
@@ -48,7 +57,7 @@ class AddTaskScreen extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-                
+                addTaskCallback(newTitle);
               },
             ),
           ),
