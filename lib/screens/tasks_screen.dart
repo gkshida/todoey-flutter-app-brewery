@@ -47,6 +47,9 @@ class _TasksScreenState extends State<TasksScreen> {
                     bottom: MediaQuery.of(context).viewInsets.bottom),
                 child: AddTaskScreen(
                   addTaskCallback: (String newTitle) {
+                    if (newTitle == null) {
+                      return;
+                    }
                     setState(() {
                       tasks.add(Task(title: newTitle));
                     });
