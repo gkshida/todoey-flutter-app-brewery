@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../models/task_data.dart';
+import 'dialog_button.dart';
 import 'task_tile.dart';
 
 class TasksList extends StatelessWidget {
@@ -18,6 +19,30 @@ class TasksList extends StatelessWidget {
               isChecked: task.isDone,
               checkboxCallback: (bool checkboxState) {
                 taskData.updateTask(task);
+              },
+              taskTileCallback: () {
+                showDialog(
+                  context: context,
+                  builder: (_) => AlertDialog(
+                    title: Text('Are you sure?'),
+                    content: Text('Do you want to delete this task?'),
+                    actions: <Widget>[
+                      DialogButton(
+                        text: 'CANCEL',
+                        onPressedCallback: () {
+                          Navigator.of(context).pop();
+                        },
+                      ),
+                      DialogButton(
+                        text: 'OK',
+                        onPressedCallback: () {
+                          taskData.deleteTaskAt(index);
+                          Navigator.of(context).pop();
+                        },
+                      ),
+                    ],
+                  ),
+                );
               },
             );
           },
