@@ -20,8 +20,8 @@ The objective of this tutorial is to learn about state management. We'll be usin
 - [x] Refactor the TaskScreen to use the Provider.
 - [x] Refactor the AddTaskScreen to use the Provider.
 - [x] Refactor the TasksList to use the Provider.
-- [ ] Implement the Delete Task functionality using the Provider.
-- [ ] Learn how to manage the state of the To-do Tasks.
+- [x] Implement the Delete Task functionality using the Provider.
+- [x] Learn how to manage the state of the To-do Tasks.
 
 >This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
 
